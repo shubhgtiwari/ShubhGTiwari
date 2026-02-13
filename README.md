@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>Data Scientist • Machine Learning Engineer • AI Engineer</h3>
-  <p><i>The intersection of statistical rigor, scalable MLOps, and modern GenAI systems.</i></p>
+  <p><i>Specializing in Predictive Modeling, MLOps, and Generative AI.</i></p>
 
   <a href="https://linkedin.com/in/shubhamgtiwari">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -20,49 +20,47 @@
 
 ---
 
-## 🎯 The "Triple-Threat" Skillset
-
-I don't just fit into one box. I bridge the gap between **analyzing data**, **building scalable pipelines**, and **architecting intelligent systems**.
+## 🛠️ Core Competencies
 
 | **Data Scientist** 📊 | **ML Engineer** ⚙️ | **AI Engineer** 🤖 |
 | :--- | :--- | :--- |
-| *Extracting insights from noise.* | *Deploying models that scale.* | *Building autonomous agents.* |
+| **Statistical Analysis & Research** | **Scalable ML Systems** | **Generative AI & LLMs** |
 | • Statistical Modeling (PCA, ANOVA)<br>• Causal Inference & Bayesian Networks<br>• Visualization (Tableau, Power BI)<br>• A/B Testing & Hypothesis Testing | • MLOps (Docker, Kubernetes)<br>• End-to-End Pipelines (Airflow)<br>• Model Optimization (Quantization)<br>• CI/CD for Machine Learning | • LLM Fine-Tuning (QLoRA, Unsloth)<br>• RAG Systems & Vector DBs<br>• Agentic Workflows (LangChain)<br>• Prompt Engineering |
 
 ---
 
-## 🔥 Featured Work across the Spectrum
+## 🔥 Featured Projects
 
-### 🤖 AI Engineering: [Smart Interview Coach](https://smart-coach-five.vercel.app/)
-> *Orchestrating autonomous agents to solve complex user problems.*
+### 🤖 [Smart Interview Coach](https://smart-coach-five.vercel.app/)
+**AI Engineering: Architecture & Agents**
 - **System:** Architected a **multi-agent system** with 7 specialized agents (Resume Tailor, Mock Interviewer).
 - **Optimization:** Implemented **dual-LLM routing** (8B vs 70B) via Groq API for sub-second latency.
 - **Tech:** `FactAPI` `React` `LangChain` `Groq API` `RAG`
 
-### ⚙️ ML Engineering: [TINA: Production LLM Optimization](https://huggingface.co/ShubhamGTiwari)
-> *Optimizing heavy models for edge deployment.*
+### ⚙️ [TINA: Production LLM Optimization](https://huggingface.co/ShubhamGTiwari)
+**ML Engineering: Fine-Tuning & Quantization**
 - **Fine-Tuning:** Adapted **Qwen 2.5 32B** on **300k+ records** using **QLoRA** (<1GB adapter).
 - **Efficiency:** Built a **GGUF quantization pipeline** (Q2-Q8 variants) for reproducible, low-resource inference.
 - **Tech:** `PyTorch` `Unsloth` `vLLM` `Docker` `WandB`
 
-### 📊 Data Science: [Human Activity Recognition](https://github.com/shubhgtiwari/Human_Activity_Recognisition)
-> *Rigorous statistical analysis of sensor data.*
+### 📊 [Human Activity Recognition](https://github.com/shubhgtiwari/Human_Activity_Recognisition)
+**Data Science: Statistical Analysis**
 - **Analysis:** Reduced feature space from 561 to 185 using **Box-Cox transformation** and **Correlation Analysis** (0.9 cutoff).
 - **Validation:** Benchmarked 8 algorithms (LDA, SVM, Neural Networks) with **3-fold cross-validation** achieving **98.2% Accuracy**.
 - **Tech:** `R` `Caret` `ggplot2` `Statistical Modeling`
 
 ---
 
-## 🔬 Research Focus: Causal Discovery
+## 🔬 Research Focus
 
 **Volunteer Machine Learning Researcher** @ Michigan Tech
-*Optimizing Bayesian Network Structure Learning*
-- Tackling the **NP-hard problem** of learning DAGs from high-dimensional data.
+*Bayesian Network Structure Learning*
+- Researching the **NP-hard problem** of learning DAGs from high-dimensional data.
 - Developing **evolutionary algorithms** (Genetic Algorithms) to improve search efficiency in causal inference.
 
 ---
 
-## 🛠️ Integrated Tech Stack
+## � Technical Skills
 
 | Domain | Tools & Frameworks |
 | :--- | :--- |
@@ -80,8 +78,3 @@ I don't just fit into one box. I bridge the gap between **analyzing data**, **bu
   <img src="https://github-readme-stats.vercel.app/api?username=ShubhGTiwari&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Shubham's GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShubhGTiwari&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </div>
-
----
-<p align="center">
-  <i>"Predictive analytics. Scalable infrastructure. Generative intelligence."</i>
-</p>
