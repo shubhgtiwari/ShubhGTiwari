@@ -10,7 +10,7 @@
   <a href="mailto:shubham@shubhamtiwari.dev">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://huggingface.co/shubhgtiwari">
+  <a href="https://huggingface.co/shubhamgtiwari">
     <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />
   </a>
   <a href="https://shubhamtiwari.dev">
