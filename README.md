@@ -1,8 +1,8 @@
 # <div align="center">Hi, I'm Shubham Tiwari 👋</div>
 
 <div align="center">
-  <h3>Data Scientist & AI Engineer | Deep Learning Researcher</h3>
-  <p><i>Building at the intersection of production LLMs, causal discovery, and scalable ML systems.</i></p>
+  <h3>Data Scientist • Machine Learning Engineer • AI Engineer</h3>
+  <p><i>The intersection of statistical rigor, scalable MLOps, and modern GenAI systems.</i></p>
 
   <a href="https://linkedin.com/in/shubhamgtiwari">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -20,73 +20,61 @@
 
 ---
 
-## 🚀 Professional Summary
+## 🎯 The "Triple-Threat" Skillset
 
-I am an AI Engineer specializing in **GenAI infrastructure** and **predictive modeling**. My work focuses on moving models from notebooks to production, whether that means fine-tuning 30B+ parameter LLMs, optimizing inference with quantization, or architecting multi-agent systems.
+I don't just fit into one box. I bridge the gap between **analyzing data**, **building scalable pipelines**, and **architecting intelligent systems**.
 
-Currently, I am a **Volunteer Machine Learning Researcher** at Michigan Tech, developing novel **evolutionary algorithms** for causal discovery in Bayesian Networks.
+| **Data Scientist** 📊 | **ML Engineer** ⚙️ | **AI Engineer** 🤖 |
+| :--- | :--- | :--- |
+| *Extracting insights from noise.* | *Deploying models that scale.* | *Building autonomous agents.* |
+| • Statistical Modeling (PCA, ANOVA)<br>• Causal Inference & Bayesian Networks<br>• Visualization (Tableau, Power BI)<br>• A/B Testing & Hypothesis Testing | • MLOps (Docker, Kubernetes)<br>• End-to-End Pipelines (Airflow)<br>• Model Optimization (Quantization)<br>• CI/CD for Machine Learning | • LLM Fine-Tuning (QLoRA, Unsloth)<br>• RAG Systems & Vector DBs<br>• Agentic Workflows (LangChain)<br>• Prompt Engineering |
 
 ---
 
-## � Featured Projects
+## 🔥 Featured Work across the Spectrum
 
-### 🤖 [Smart Interview Coach: Autonomous Agent Platform](https://smart-coach-five.vercel.app/)
-> *A production-grade career platform powered by a multi-agent orchestration layer.*
+### 🤖 AI Engineering: [Smart Interview Coach](https://smart-coach-five.vercel.app/)
+> *Orchestrating autonomous agents to solve complex user problems.*
+- **System:** Architected a **multi-agent system** with 7 specialized agents (Resume Tailor, Mock Interviewer).
+- **Optimization:** Implemented **dual-LLM routing** (8B vs 70B) via Groq API for sub-second latency.
+- **Tech:** `FactAPI` `React` `LangChain` `Groq API` `RAG`
 
-- **The Problem:** Generic AI advice isn't actionable for job seekers.
-- **My Solution:**
-  - **Architecture:** Built a **dual-LLM routing system** where a fast 8B model handles chat and a 70B model handles deep critique, achieving sub-second latency via Groq API.
-  - **Agents:** Deployed **7 autonomous agents** (Resume Tailor, Mock Interviewer, Salary Negotiator) that collaborate to solve complex user tasks.
-  - **Impact:** Features **ghost job detection** (analyzing 5+ signals like posting date/bias) and **ATS optimization** that rewrites bullet points at a staff-engineer level.
-- **Tech:** `FactAPI` `React` `Django` `PostgreSQL` `Docker` `AWS` `Groq API`
+### ⚙️ ML Engineering: [TINA: Production LLM Optimization](https://huggingface.co/ShubhamGTiwari)
+> *Optimizing heavy models for edge deployment.*
+- **Fine-Tuning:** Adapted **Qwen 2.5 32B** on **300k+ records** using **QLoRA** (<1GB adapter).
+- **Efficiency:** Built a **GGUF quantization pipeline** (Q2-Q8 variants) for reproducible, low-resource inference.
+- **Tech:** `PyTorch` `Unsloth` `vLLM` `Docker` `WandB`
 
-### 🧠 [TINA: LLM Fine-Tuning & Reasoning](https://huggingface.co/ShubhamGTiwari)
-> *Advanced model adaptation for specialized reasoning tasks.*
-
-- **Optimization:** Fine-tuned **Qwen 2.5 32B** on **300k+ records** using **QLoRA + Unsloth**, producing efficient <1GB adapters.
-- **Reasoning:** Experimented with **GRPO (Group Relative Policy Optimization)** using **5 distinct reward functions** to enforce chain-of-thought logic.
-- **Deployment:** Built a robust **quantization pipeline** using `llama.cpp` to generate Q2-Q8 GGUF variants for edge deployment.
-- **Tech:** `PyTorch` `Unsloth` `vLLM` `Hugging Face` `WandB`
-
-### 🧬 [Protein Family Classification](https://github.com/shubhgtiwari/Protein_Sequence_Classification)
-> *High-performance bioinformatics classification at scale.*
-
-- **Scale:** Processed **22,815 unstructured protein sequences** to classify them into distinct families.
-- **Performance:** Achieved **98.96% Accuracy** and **ROC-AUC = 1.00** using SVMs and XGBoost.
-- **Engineering:** Extracted **1,425 biological features** using BioPython and handled class imbalance with SMOTE oversampling.
-- **Tech:** `Python` `Scikit-learn` `XGBoost` `BioPython` `TensorFlow`
-
-### 📱 [Human Activity Recognition](https://github.com/shubhgtiwari/Human_Activity_Recognisition)
-> *Real-time sensor data analysis and predictive modeling.*
-
-- **Precision:** Classified 6 distinct activities from **10,299 smartphone sensor observations** with **98.2% accuracy** (Kappa 0.978).
-- **Pipeline:** Designed a rigorous preprocessing pipeline using **Box-Cox transformation** and **PCA**, reducing feature space from 561 to 185 while maintaining signal integrity.
-- **Validation:** Benchmarked 8 algorithms (LDA, Neural Networks, k-NN) using 3-fold cross-validation.
+### 📊 Data Science: [Human Activity Recognition](https://github.com/shubhgtiwari/Human_Activity_Recognisition)
+> *Rigorous statistical analysis of sensor data.*
+- **Analysis:** Reduced feature space from 561 to 185 using **Box-Cox transformation** and **Correlation Analysis** (0.9 cutoff).
+- **Validation:** Benchmarked 8 algorithms (LDA, SVM, Neural Networks) with **3-fold cross-validation** achieving **98.2% Accuracy**.
 - **Tech:** `R` `Caret` `ggplot2` `Statistical Modeling`
 
 ---
 
 ## 🔬 Research Focus: Causal Discovery
 
-My research addresses the **NP-hard problem** of learning Bayesian Network structures from high-dimensional data.
-- **Approach:** Developing hybrid **evolutionary algorithms** (Genetic Algorithms) to explore the DAG (Directed Acyclic Graph) search space more efficiently than traditional score-based or constraint-based methods.
-- **Goal:** Improving the scalability and accuracy of causal inference in complex systems.
+**Volunteer Machine Learning Researcher** @ Michigan Tech
+*Optimizing Bayesian Network Structure Learning*
+- Tackling the **NP-hard problem** of learning DAGs from high-dimensional data.
+- Developing **evolutionary algorithms** (Genetic Algorithms) to improve search efficiency in causal inference.
 
 ---
 
-## 🛠️ Technical Arsenal
+## 🛠️ Integrated Tech Stack
 
-| Domain | Stack |
+| Domain | Tools & Frameworks |
 | :--- | :--- |
 | **GenAI & NLP** | `Llama 3.1` `Mistral` `RAG` `LangChain` `Unsloth` `QLoRA` `GRPO` `vLLM` |
 | **Machine Learning** | `PyTorch` `TensorFlow` `XGBoost` `Scikit-learn` `Statsmodels` `CausalLearn` |
 | **Data Engineering** | `PostgreSQL` `MongoDB` `Snowflake` `Apache Spark` `Airflow` `dbt` |
-| **Backend & Cloud** | `FastAPI` `Django` `Docker` `Kubernetes` `AWS (ECS, S3)` `Terraform` |
+| **Backend & DevOps** | `FastAPI` `Django` `Docker` `Kubernetes` `AWS (ECS, S3)` `Terraform` |
 | **Languages** | `Python` `SQL` `R` `JavaScript` `TypeScript` `Bash` |
 
 ---
 
-## � GitHub Stats
+## 📈 GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ShubhGTiwari&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Shubham's GitHub Stats" />
@@ -95,5 +83,5 @@ My research addresses the **NP-hard problem** of learning Bayesian Network struc
 
 ---
 <p align="center">
-  <i>"I don't just train models; I build the infrastructure that makes them useful."</i>
+  <i>"Predictive analytics. Scalable infrastructure. Generative intelligence."</i>
 </p>
